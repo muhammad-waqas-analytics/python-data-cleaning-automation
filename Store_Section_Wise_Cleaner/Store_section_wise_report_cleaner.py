@@ -298,8 +298,8 @@ def format_excel(output_file):
 # Main Function
 # ==========================================================
 
-def main(input_csv_path="/sample_data/Store_Section_Wise_Capitalized.csv",
-         output_excel_path="/sample_data/Cleaned_Store_Section_Wise_Capitalized.xlsx",
+def main(input_csv_path="/workspaces/python-data-cleaning-automation/Store_Section_Wise_Cleaner/input.csv",
+         output_excel_path="/workspaces/python-data-cleaning-automation/Store_Section_Wise_Cleaner/output.xlsx",
          numeric_cols_to_convert=[
             "Consumption Quantity",
             "Consumption Value",

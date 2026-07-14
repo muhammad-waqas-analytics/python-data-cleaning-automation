@@ -15,8 +15,8 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 # File Paths
 # ==========================================================
 
-INPUT_FILE = "/sample_data/Issue_edit_list.csv"
-OUTPUT_FILE = "/sample_data/Cleaned_issue_edit_list.xlsx"
+INPUT_FILE = "/workspaces/python-data-cleaning-automation/Issue_Edit_List_Cleaner/input.csv"
+OUTPUT_FILE = "/workspaces/python-data-cleaning-automation/Issue_Edit_List_Cleaner/output.xlsx"
 
 # ==========================================================
 # Regular Expressions
@@ -43,7 +43,6 @@ def read_csv(File_Path):
     )
 
     print("Rows Read :", len(df))
-    print()
 
     return df
 
@@ -124,8 +123,7 @@ def extract_transactions(df):
             })
 
     print(f"Transactions Found : {len(records)}")
-    print()
-
+  
     return pd.DataFrame(records)
     # ==========================================================
 # Clean Text Columns
@@ -154,8 +152,9 @@ def clean_text_columns(df):
 # ==========================================================
 
 def clean_numeric_columns(df):
-
+  
     print("Cleaning Numeric Columns...")
+    print("=" * 60)
 
     # Remove commas
     df["Quantity"] = (
@@ -191,7 +190,7 @@ def clean_numeric_columns(df):
 def calculate_rate(df):
 
     print("Calculating Rate...")
-
+    print("=" * 60)
     df["Rate"] = df.apply(
 
         lambda row:
