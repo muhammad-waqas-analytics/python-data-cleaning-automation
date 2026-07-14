@@ -122,11 +122,11 @@ Store_Section_Wise_Cleaner/Cleaned_store_Section_Wise_Capitalized.xlsx
 
 **Before**
 
-![Issue Before](screenshots/issue_before.png)
+![Issue Before](screenshots/Issue_before.png)
 
 **After**
 
-![Issue After](screenshots/issue_after.png)
+![Issue After](screenshots/Issue_after.png)
 
 ---
 
@@ -134,11 +134,11 @@ Store_Section_Wise_Cleaner/Cleaned_store_Section_Wise_Capitalized.xlsx
 
 **Before**
 
-![Store Before](screenshots/store_before.png)
+![Store Before](screenshots/Store_before.png)
 
 **After**
 
-![Store After](screenshots/store_after.png)
+![Store After](screenshots/Store_after.png)
 
 ---
 
